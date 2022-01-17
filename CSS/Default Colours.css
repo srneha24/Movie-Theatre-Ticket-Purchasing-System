@@ -1,0 +1,8 @@
+body {
+    background: linear-gradient(red, black) fixed;
+}
+
+.title-bg {
+    background-color: #3B1375;
+    font-weight: bold;
+}

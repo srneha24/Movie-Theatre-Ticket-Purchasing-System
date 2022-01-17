@@ -1,0 +1,55 @@
+#heading {
+    background-color: #131380;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: extra-expanded;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#now-playing {
+    background-color: #B3E8DE;
+    border: 100px 100px 100px 100px;
+    border-style: solid;
+    border-color: #131380;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: #131380;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: extra-expanded;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview img {
+    height: 600px;
+    width: 400px;
+    border: 4px solid white;
+    padding: 1px;
+}
+
+.thumbnails img {
+    height: 200px;
+    width: 135px;
+    border: 4px solid cyan;
+    padding: 1px;
+    margin: 0px 10px 10px 0px;
+}
+
+.thumbnails img:hover {
+    border: 4px solid white;
+}
+
+#imdb-desc {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+}
