@@ -4,7 +4,7 @@ class Dbh {
     private $host = "localhost";
     private $user = "root";
     private $pwd = "";
-    private $dbName = "movie_theatre_ticket_purchasing_system";
+    private $dbName = "independent_book_publishing_system ";
 
     protected function connect() {
         $dsn = 'mysql:host='.$this->host.';dbname='.$this->dbName;
