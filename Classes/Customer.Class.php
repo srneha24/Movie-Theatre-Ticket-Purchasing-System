@@ -60,6 +60,7 @@ class Customer extends Dbh {
 
         else {
             return 0;
+            //oh
         }
     }
 
